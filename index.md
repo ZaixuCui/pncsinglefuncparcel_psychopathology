@@ -16,7 +16,7 @@ Adam R. Pines
 Adam R. Pines, Bart Larsen, Valerie J. Sydnor, Hongming Li, Azeez Adebimpe, Aaron F. Alexander-Bloch, Dani S. Bassett, Max Bertolero, Monica E. Calkins, Christos Davatzikos, Damien A. Fair, Ruben C. Gur, Raquel E. Gur, Michael P. Milham, Tyler M. Moore, Sheila Shanmugan, Russell T. Shinohara, Jacob W. Vogel,Cedric H. Xia,Yong Fan
 
 ### Current Project Status
-In preparation.
+In submission.
 
 ### Datasets
 PNC dataset:<https://www.ncbi.nlm.nih.gov/projects/gap/cgi-bin/study.cgi?study_id=phs000607.v3.p2>
