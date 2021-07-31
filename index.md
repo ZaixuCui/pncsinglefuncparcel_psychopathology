@@ -13,7 +13,7 @@ Theodore D. Satterthwaite
 Adam R. Pines
 
 ### Collaborators 
-Adam R. Pines, Hongming Li, Tyler M. Moore, Azeez Adebimpe, Jacob W. Vogel, Sheila Shanmugan, Bart Larsen, Max Bertolero, Cedric H. Xia, Raquel E. Gur, Ruben C. Gur, Desmond J. Oathes, Aaron F. Alexander-Bloch, Michael P. Milham, Giovanni A. Salum, Monica E. Calkins, David R. Roalf, Russell T. Shinohara, Daniel H. Wolf, Christos Davatzikos, Danielle S. Bassett, Damien A. Fair, Yong Fan
+Adam R. Pines, Bart Larsen, Valerie J. Sydnor, Hongming Li, Azeez Adebimpe, Aaron F. Alexander-Bloch, Dani S. Bassett, Max Bertolero, Monica E. Calkins, Christos Davatzikos, Damien A. Fair, Ruben C. Gur, Raquel E. Gur, Michael P. Milham, Tyler M. Moore, Sheila Shanmugan, Russell T. Shinohara, Jacob W. Vogel,Cedric H. Xia,Yong Fan
 
 ### Current Project Status
 In preparation.
