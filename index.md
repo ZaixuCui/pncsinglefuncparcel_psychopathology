@@ -106,11 +106,11 @@ Relate the functional topography and item-level psychopathology symptoms using p
    > Use partial least square correlation to decompose paris of components that maximizing the covariance between functional topography and item-level psychopathology symptoms. Repeated (i.e., 101 times) 2F-CV was used and a permutation testing was used to generate the distribution of out-of-sample correlations at chance level.
 2. Step_2nd_PLSca_Sig.m:
    > Extract the PLSC results and calculate the P value of the out-of-sample correlation between pairs of components. 
-2. Step_3rd_CovarianceExplained.R:
+3. Step_3rd_CovarianceExplained.R:
    > Calculate the median covariance explained by each component across the 101 repetitions. 
-3. Step_5th_Scatter_PLSca.R:
+4. Step_4th_Scatter_PLSca.R:
    > The scatter plot of the correlation between the first pair of components. 
-5. Step_4th_Prediction_RandomCV_All_Violin.R:
+5. Step_5th_Prediction_RandomCV_All_Violin.R:
    > The plot of the distribution of correlations between first pair of components from permutation testing. 
 6. Step_6th_BehaviorBrainFeatures_Update.m:
    > Match the signs of weights across the 101 repetitions and calculate the P value of the contribution of each psychopathology item to the first component. 
@@ -118,6 +118,8 @@ Relate the functional topography and item-level psychopathology symptoms using p
    > Visualize the contribution pattern of functional topography features to the first component. 
 8. Step_8th_SumofWeights_PLSca.R:
    > Sum the contribution weights of each network and visualize using bar graph.
+9. Step_9th_ContributionWeight_SpinTest:
+   > Evaluate the correlation between contribution maps of overall psychopathology factor from PLS-R and that from PLS-C and test the significance using permutation testing. 
 
 ### Notes
 1. g_ls.m is a funtion that will be used in the Maltab scripts here. PSOM (http://psom.simexp-lab.org/) is used for parallelization. Both g_ls.m and PSOM can also be found in our previous software PANDA (https://github.com/ZaixuCui/PANDA; https://www.nitrc.org/projects/panda).
