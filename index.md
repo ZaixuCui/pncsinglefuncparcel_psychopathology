@@ -39,7 +39,7 @@ The steps below detail how to replicate all aspects of this project, from neuroi
    > Extract correlated dimensions, bifactors, and item-level symptom of psychopathology.
 3. Step_3rd_CopyStructFSFiles.R, Step_4th_DataFSProcessing.m, Step_5th_MergeModalities.m: 
    > Project fmri data into surface and then combine the three modalities.
-4. Step_6th_tSNRMask*: 
+4. Step_6th_tSNRMask_*: 
    > Generate the tSNR mask.
 5. Step_7th_EFA.R, Step_8th_CFA: 
    > Plot figures for exploratory factor analysis (Figure 2) and confirmatory factor analysis (Figure 5).
@@ -77,17 +77,17 @@ Step1 to step4 are codes for single functional parcellation (Li et al., 2017, Ne
    
 ### Step_5th_PLSr1_Corrtraits
 Prediction of the four correlated dimensions of psychopathology using personalized functional topography.
-1. Step_1st_Prediction_Fear_RandomCV.py, Step_1st_Prediction_Psychosis_RandomCV.py, Step_1st_Prediction_Externalizing_RandomCV.py, Step_1st_Prediction_Mood_RandomCV.py:
+1. Step_1st_Prediction_*_RandomCV.py:
    > Predict factor scores of fear, psychosis, externalizing and mood/anxious-misery dimensions using networks loading features acquired in Step 4th. Repeated (i.e., 101 times) two-fold cross validation (2F-CV) was used here. Partial least square regression was used to predict the behavior. We applied permutation testing (i.e., 1,000 times) to evaluate the significance of the prediction accuracy.
 2. Step_2nd_Sig.m:
    > Extract the prediction results and calculate the P value of the prediction accuracy based on the distribution from the permutation testing.
-3. Step_3rd_Scatter_Fear.R, Step_3rd_Scatter_Psychosis.R, Step_3rd_Scatter_Externalizing.R, Step_3rd_Scatter_Mood.R:
+3. Step_3rd_Scatter_*.R:
    > Plot the scatter plot of the correlation between actual and predicted scores of the prediction of the four correlated dimensions of psychopathology. The 2F-CV was repeated 101 times and we reported the one with the median prediction accuracy.
 4. Step_4th_Prediction_RandomCV_All_Violin.R:
    > Plot the actual prediction accuracy (i.e., correlation r between actual and predicted scores) and boxplot/violin plot of the permutation distribution.
-5. Step_5th_Weight_Visualize_Workbench_Fear_RandomCV.m, Step_5th_Weight_Visualize_Workbench_Psychosis_RandomCV.m, Step_5th_Weight_Visualize_Workbench_Externalizing_RandomCV.m, Step_5th_Weight_Visualize_Workbench_Mood_RandomCV.m:
+5. Step_5th_Weight_Visualize_Workbench_*_RandomCV.m:
    > Visualize the contribution pattern using workbench.
-6. Step_6th_SumofWeights_Fear.R, Step_6th_SumofWeights_Psychosis.R, Step_6th_SumofWeights_Externalizing.R, Step_6th_SumofWeights_Mood.R:
+6. Step_6th_SumofWeights_*.R:
    > Calculate the sum of weights within each of 17 networks and visualize using bar plot. 
 7. Step_7th_SumofWeights_Correlation.R:
    > Calculate the correlation between the sum of weights and the median network variability, and then visualizing using scatter plot.
