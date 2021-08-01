@@ -93,7 +93,7 @@ Prediction of the four correlated dimensions of psychopathology using personaliz
    > Calculate the correlation between the sum of weights and the median network variability, and then visualizing using scatter plot.
    
 ### Step_6th_PLSr1_OverallPsyFactor
-Prediction of overall psychopathology factor, which was from the bifactor model, using personalized functional topography. The computations from step 1 to step 6 are the same with the above. 
+Prediction of overall psychopathology factor, which was from the bifactor model, using personalized functional topography. The computations from step 1 to step 6 are the same as the descriptions above. 
 
 ### Step_7th_PLSca
 Relate the functional topography and item-level psychopathology symptoms using partial least square correlation.
