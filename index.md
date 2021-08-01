@@ -91,9 +91,11 @@ Prediction of the four correlated dimensions of psychopathology using personaliz
    > Calculate the sum of weights within each of 17 networks and visualize using bar plot. 
 7. Step_7th_SumofWeights_Correlation.R:
    > Calculate the correlation between the sum of weights and the median network variability, and then visualizing using scatter plot.
+8. Step_8th_WeightsCorr_Plot.R & Step_9th_ContributionWeight_SpinTest:
+   > Calculate the correlation among the weight maps of the four dimensions and then test the significance using spin test
    
 ### Step_6th_PLSr1_OverallPsyFactor
-Prediction of overall psychopathology factor, which was from the bifactor model, using personalized functional topography. The computations from step 1 to step 6 are the same as the descriptions above. 
+Prediction of overall psychopathology factor, which was from the bifactor model, using personalized functional topography. The computations from step 1 to step 6 are the same as the descriptions above. Particularly, Step 7th is testing the correlation between contribution maps and first gradient of functional hierarchy and evaluate the significance using spin test. 
 
 ### Step_7th_PLSr1_OtherFactors
 Prediction of other specific orthogonal factors from bifactor model, including fear, psychosis, externalizing, mood/anxious-misery factors. Results showed functional topography significantly predicted fear and psychosis factors, so futher visualized the results of these two factors. The computations from step 1 and step 6 are the same with the above. 
