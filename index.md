@@ -83,7 +83,7 @@ Prediction of the four correlated dimensions of psychopathology using personaliz
    > Extract the prediction results and calculate the P value of the prediction accuracy based on the distribution from the permutation testing.
 3. Step_3rd_Scatter_*.R:
    > Plot the scatter plot of the correlation between actual and predicted scores of the prediction of the four correlated dimensions of psychopathology. The 2F-CV was repeated 101 times and we reported the one with the median prediction accuracy.
-4. Step_4th_Prediction_RandomCV_All_Violin.R:
+4. Step_4th_Permutation_All_Violin.R:
    > Plot the actual prediction accuracy (i.e., correlation r between actual and predicted scores) and boxplot/violin plot of the permutation distribution.
 5. Step_5th_Weight_Visualize_Workbench_*_RandomCV.m:
    > Visualize the contribution pattern using workbench.
