@@ -95,7 +95,10 @@ Prediction of the four correlated dimensions of psychopathology using personaliz
 ### Step_6th_PLSr1_OverallPsyFactor
 Prediction of overall psychopathology factor, which was from the bifactor model, using personalized functional topography. The computations from step 1 to step 6 are the same as the descriptions above. 
 
-### Step_7th_PLSca
+### Step_7th_PLSr1_OtherFactors
+Prediction of other specific orthogonal factors from bifactor model, including fear, psychosis, externalizing, mood/anxious-misery factors. Results showed functional topography significantly predicted fear and psychosis factors, so futher visualized the results of these two factors. The computations from step 1 and step 6 are the same with the above. 
+
+### Step_8th_PLSca
 Relate the functional topography and item-level psychopathology symptoms using partial least square correlation.
 1. Step_1st_PLSCorr.py:
    > Use partial least square correlation to decompose paris of components that maximizing the covariance between functional topography and item-level psychopathology symptoms. Repeated (i.e., 101 times) 2F-CV was used and a permutation testing was used to generate the distribution of out-of-sample correlations at chance level.
@@ -113,9 +116,6 @@ Relate the functional topography and item-level psychopathology symptoms using p
    > Visualize the contribution pattern of functional topography features to the first component. 
 8. Step_8th_SumofWeights_PLSca.R:
    > Sum the contribution weights of each network and visualize using bar graph.
-   
-### Step_8th_PLSr1_OtherFactors
-Prediction of other specific orthogonal factors from bifactor model, including fear, psychosis, externalizing, mood/anxious-misery factors. Results showed functional topography significantly predicted fear and psychosis factors, so futher visualized the results of these two factors. The computations from step 1 and step 6 are the same with the above. 
 
 ### Notes
 1. g_ls.m is a funtion that will be used in the Maltab scripts here. PSOM (http://psom.simexp-lab.org/) is used for parallelization. Both g_ls.m and PSOM can also be found in our previous software PANDA (https://github.com/ZaixuCui/PANDA; https://www.nitrc.org/projects/panda).
